@@ -89,7 +89,7 @@ export const RenderMenu = () => {
     <header>
       <Navbar
         expand='sm'
-        className='p-3 mb-4 navbar-dark mNavBar'
+        className='mb-4 navbar-dark mNavBar px-10'
         sticky='top'
       >
         <Navbar.Brand>

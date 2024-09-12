@@ -6,13 +6,17 @@
   --mPageForeBG: #333333; 
   --mMainText: #B8B8B8;
   --mSecondaryText: #8F8F8F;
+  --mAccentColor: #FF7060;
+
 }
 
 .mNavBar{
   background-color: #1b1a1b9d !important;
   color: var(--mMainText) !important;
   filter: drop-shadow(0px 0px 5px #000000b3) !important;
-
+  padding: 2.5px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
 
 .logo{
@@ -20,6 +24,12 @@
   text-decoration: none;
   font-weight: 900;
   font-size: 32px;
+  transition: 1s;
+
+}
+.logo:hover{
+  color: var(--mAccentColor) !important;
+  transition: 1s;
 }
 
 body {
@@ -29,14 +39,31 @@ body {
 }
 .mainDisplay{
   background-color: var(--mPageBackBG) !important;
-  filter: drop-shadow(0px 0px 10px #0000006f) !important;
+  /*filter: drop-shadow(0px 0px 10px #0000006f) !important;*/
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.216), -10px -10px 10px rgba(177, 177, 177, 0.131);
   border-radius: var(--CornerSize);
   margin-top: 150px;
+  padding-left: 25px  !important;
+  padding-right: 25px !important;
+  padding-top: 25px   !important;
+  padding-bottom: 0px !important;
+}
+
+.mTab{
+  background: linear-gradient(180deg, rgba(59,59,59,1) 19%, rgba(51,51,51,1) 92%, rgba(35,35,35,1) 100%); 
 }
 
 .text-justify {
   text-align: justify;
 }
+
+.mSmall{
+  font-size: 12px !important;
+}
+
+h3{
+}
+
 
 
 @keyframes afterDeadlineAnim {

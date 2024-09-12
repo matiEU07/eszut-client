@@ -23,7 +23,7 @@ const ReportProblem = () => {
             stało oraz wybrać jedną z dostępnych kategorii zgłoszenia.
             Do zgłoszenia jest przypisywany domyślny priorytet, który wynika z kategorii.
           </p>
-          <p className="small text-start">
+          <p className="mSmall text-start">
             Autor aplikacji:{' '}
               Jakub Olejnik 3C
               {' '}&copy; 2023
