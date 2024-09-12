@@ -61,11 +61,26 @@ body {
   font-size: 12px !important;
 }
 
-h3{
+input{
+  box-shadow: inset 2px 2px 5px #101010a8,inset -3px -3px 7px #ffffff27 !important;
+  background-color: #333333 !important;
+  border-color: #232323 !important;
+  color: var(--mMainText) !important;
+}
+input::placeholder{
+  color:rgb(107, 107, 107) !important;
 }
 
-
-
+button{
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.216), -5px -5px 5px rgba(177, 177, 177, 0.131);
+  background-color: var(--mPageBackBG) !important;
+  border-style: none !important;
+}
+button:active{
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.216), -5px -5px 5px rgba(177, 177, 177, 0.131);
+  background-color: var(--mAccentColor) !important;
+  border-style: none !important;
+}
 @keyframes afterDeadlineAnim {
   0% {
       background-color: #f8f9fa;
