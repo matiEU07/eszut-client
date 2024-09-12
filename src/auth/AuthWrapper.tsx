@@ -83,7 +83,7 @@ export const AuthWrapper = () => {
     <AuthContext.Provider value={{ user, login, logout }}>
       <>
         <RenderMenu />
-        <main className="container bg-light p-4">
+        <main className="container mainDisplay p-4">
           <RenderRoutes />
         </main>
       </>

@@ -1,29 +1,63 @@
+:root  {
+
+  --CornerSize: 8px;
+
+  --mPageBackBG: #333333;
+  --mPageForeBG: #333333; 
+  --mMainText: #B8B8B8;
+  --mSecondaryText: #8F8F8F;
+}
+
+.mNavBar{
+  background-color: #1b1a1b9d !important;
+  color: var(--mMainText) !important;
+  filter: drop-shadow(0px 0px 5px #000000b3) !important;
+
+}
+
+.logo{
+  color: var(--mMainText) !important;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 32px;
+}
+
 body {
   margin: 0;
-  background-color: #2F3336 !important;
+  background-color: var(--mPageBackBG) !important;
+  color: var(--mMainText) !important;
+}
+.mainDisplay{
+  background-color: var(--mPageBackBG) !important;
+  filter: drop-shadow(0px 0px 10px #0000006f) !important;
+  border-radius: var(--CornerSize);
+  margin-top: 150px;
 }
 
 .text-justify {
   text-align: justify;
 }
 
+
 @keyframes afterDeadlineAnim {
   0% {
       background-color: #f8f9fa;
   }
   20% {
-      background-color: #ffc107;
+      background-color: #fccd3f;
   }
   40% {
       background-color: #dc3545;
   }
   60% {
-      background-color: #007bff;
+      background-color: #2f80f9;
   }
   80% {
-      background-color: #17a2b8;
+      background-color: #20b6c0;
   }
 }
+
+
 
 .after-deadline {
   animation-name: afterDeadlineAnim; 

@@ -88,13 +88,12 @@ export const RenderMenu = () => {
   return (
     <header>
       <Navbar
-        bg='primary'
         expand='sm'
-        className='p-3 mb-4 navbar-dark'
+        className='p-3 mb-4 navbar-dark mNavBar'
         sticky='top'
       >
         <Navbar.Brand>
-          <Link className='navbar-brand' to='/eszut'>
+          <Link className='logo' to='/eszut'>
             ESZUT
           </Link>
         </Navbar.Brand>
